@@ -1,0 +1,1253 @@
+/* 
+Book - Schedule Locatons Menus - Backend CSS
+Created: 21/01/2022
+Last Update: 03/12/2022
+Author: Gabriel Caroprese
+*/
+#ik_sch_book_content .hide{
+    display:none;
+}
+#ik_sch_book_add_data .ik_sch_book_fields{
+    padding: 20px 20px 30px;
+    background: #ddd;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 25px 0;
+}
+.ik_sch_book_fields{
+    background: #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 3px;
+}
+.ik_sch_book_fields label{
+    display: block;
+    
+    margin-bottom: 20px;
+}
+#ik_sch_book_add_data .ik_sch_book_fields input, #ik_sch_book_add_data .ik_sch_book_fields .select2-container, #ik_sch_book_add_data .ik_sch_book_fields select{
+    width: 210px;
+}
+#ik_sch_book_add_data .ik_sch_book_fields .select2-container, #ik_sch_book_add_data .ik_sch_book_fields select{
+    position: relative;
+    top: -2.5px;
+}
+.ik_sch_book_css_openingtimes .button-primary, .wp-core-ui .button-secondary {
+    margin-top: 30px;
+}
+#ik_sch_book_add_records textarea {
+    height: 100px;
+}
+#ik_sch_book_add_records{
+    min-width: 35%;
+}
+#ik_sch_book_add_records .subfield, #ik_sch_book_edit_records .subfield{
+    margin-left: 2px;
+}
+#ik_sch_book_existing p.search-box, #ik_sch_book_data_existing p.search-box{
+    padding-right: 3px;
+    padding-bottom: 28px;
+    float: right;
+    margin: 0;
+}
+table#ik_sch_book_existing{
+    width: 100%;
+}
+.ik_sch_book_panel_buttons{
+    display: block;
+    padding-top: 20px;
+}
+#ik_sch_book_existing .tablenav-pages{
+    max-width: 50%;
+    float: left;
+    position: relative;
+    top: 6px;
+}
+#ik_sch_book_existing.staff th:nth-child(3), #ik_sch_book_existing.staff th:nth-child(4), #ik_sch_book_existing.staff th:nth-child(5) {
+    min-width: 110px;
+}
+#ik_sch_book_edit_records form{
+    margin-bottom: 50px;
+}
+#ik_sch_book_existing thead tr, #ik_sch_book_existing tfoot tr{
+    background: #fff;
+}
+#ik_sch_book_existing tbody tr{
+    background-color: #f6f7f7;
+}
+#ik_sch_book_existing th.worder {
+    cursor: pointer;
+    position: relative;
+}
+#ik_sch_book_existing th.worder.sorted {
+    min-width: 110px;
+}
+#ik_sch_book_existing th.worder .sorting-indicator {
+    right: 5px;
+    top: 22px;
+    position: absolute;
+}
+#ik_sch_book_existing th, #ik_sch_book_existing td{
+    padding: 11px! important;
+    text-align: center;
+}
+#ik_sch_book_existing tr td.ik_sch_book_id {
+    width: 90px;
+}
+#ik_sch_book_existing th, #ik_sch_book_existing td{
+    padding: 11px! important;
+    text-align: center;
+}
+#ik_sch_book_existing tr td {
+    border-left: 1px solid #fff;
+}
+#ik_sch_book_existing tr td:first-child {
+    border-left-width: 0px;
+}
+#ik_sch_book_existing tbody tr:nth-child(2n+1) {
+    background: #eee;
+}
+#ik_sch_book_existing tbody tr:nth-child(2n+2) {
+    background: #ddd;
+}
+#ik_sch_book_existing .button.action .dashicons, #ik_sch_book_modal .data_info .dashicons:not(.edit_data_info){
+    position: relative;
+    top: 4px;
+}
+#ik_sch_book_modal .button_cancel_edit, #ik_sch_book_modal .ik_sch_book_delete_field{
+    border-color: #c4302b;
+    color: #c4302b;
+    margin-left: 1px;
+}
+#ik_sch_book_modal button{
+    line-height: 1;
+}
+.ik_sch_book_services_select_wrapper:first-child .ik_sch_book_delete_field {
+    display: none;
+}
+#ik_sch_book_modal .ik_sch_book_delete_field{
+    text-decoration: none;
+    line-height: 1;
+    vertical-align: sub;
+    box-shadow: none;
+    position: relative;
+    top: 2px;
+}
+#ik_sch_book_modal .ask_email_field{
+    margin: 2px;
+}
+.ik_sch_book_pages{
+    display: block;
+    margin: 20px 0;
+}
+.ik_sch_book_pages a {
+    padding: 5px 12px;
+    margin: 3px;
+    text-decoration: none;
+    background: #fff;
+    font-size: 15px;
+}
+.ik_sch_book_pages a.actual_page {
+    background: #2271b1;
+    color: #fff;
+}
+#ik_sch_book_add_records h4 {
+    font-size: 1em;
+    margin: 0 3px 5px;
+}
+#ik_sch_book_product_asoc{
+    width: 176px;
+}
+#ik_sch_book_filter_box{
+    display: flow-root;
+    position: relative;
+    top: -14px;
+}
+#ik_sch_book_existing_records .panel_filter_search{
+    padding: 0 25px;
+}
+#ik_sch_book_existing_records .panel_filter_date{
+    max-width: 420px;
+    display: inline-flex;
+    position: relative;
+    top: 1px;
+    padding: 0 5%;
+}
+#ik_sch_book_existing_records form.search-box {
+    float: right;
+    margin: 0;
+}
+#ik_sch_book_existing_records .panel_filter_date .from_date, #ik_sch_book_existing_records .panel_filter_date .to_date {
+    position: relative;
+}
+#ik_sch_book_existing_records .panel_filter_date .from_date:after, #ik_sch_book_existing_records .panel_filter_date .to_date:after {
+    position: absolute;
+    top: 28px;
+    margin-left: -7px;
+    left: 10px;
+    font-size: 12.5px;
+}
+#ik_sch_book_existing_records p.show-all-button, #ik_sch_book_existing  p.show-all-button{
+    display: inline-block;
+    padding: 0 25px;
+}
+#ik_sch_book_filter_box select {
+    width: 130px;
+    margin: 1px;
+    text-transform: capitalize;
+}
+#ik_sch_book_edit_section .ik_sch_book_edit_name {
+    position: relative;
+    top: 12px;
+    font-size: 24px;
+    cursor: pointer;
+}
+#ik_sch_book_edit_section .ik_sch_book_edit_location_address i{
+    margin-right: 4px;
+}
+#ik_sch_book_field_edit textarea {
+    resize: vertical;
+    width: 260px;
+}
+#ik_sch_book_location_services_wrapper .ik_sch_book_services_delivered_fields li {
+    margin-bottom: 16px;
+}
+#ik_sch_book_location_services_wrapper .ik_sch_book_services_delivered_fields select{
+    max-width: 230px;
+}
+#ik_sch_book_location_services_wrapper .ik_sch_book_services_delivered_fields .ik_sch_field_price{
+    width: 90px;
+    text-align: center;
+}
+#ik_sch_book_location_services_wrapper .ik_sch_book_services_delivered_fields li a{
+    position: relative;
+    top: 2px;
+}
+/* Chrome, Safari, Edge, Opera */
+#ik_sch_book_location_services_wrapper .ik_sch_book_services_delivered_fields li input::-webkit-outer-spin-button,
+#ik_sch_book_location_services_wrapper .ik_sch_book_services_delivered_fields li input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.ik_sch_field_sub_input_label{
+    position: relative;
+}
+.ik_sch_field_sub_input{
+    position: absolute;
+    left: 0px;
+    top: -10px;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 90px;
+    text-align: center;
+}
+#ik_sch_book_modal .right-header-panel div {
+    float: left;
+    outline: 0;
+    margin: 0px 4px;
+}
+#ik_sch_book_modal .right-header-panel .remove-element a{
+    background: #c8232c;
+    border-color: #c8232c;
+}
+#turn-back-color{
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+    box-shadow: none;
+}
+#ik_booking_modal_colorPicker{
+    width: 25px;
+    border: 0;
+}
+@media (min-width: 768px){
+    #ik_sch_book_modal .right-header-panel{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+}
+@media (min-width: 980px){
+    #ik_sch_book_edit_location_times_main{
+        min-width: 425px;
+        width: 43%;
+    }
+    #ik_sch_book_location_services_wrapper{
+        width: 100%;
+        display: grid;
+    }
+    #ik_sch_book_block_datetimes{
+        width: 55%;
+        min-width: 500px;        
+    }
+    #ik_sch_book_location_services_wrapper .ik_sch_book_location_services {
+        margin-top: 0! important;
+        max-width: 576px;
+    }
+    #ik_sch_book_add_records, #ik_sch_book_existing, #ik_sch_book_data_existing, #ik_sch_book_add_data{
+        float: left;
+        padding: 25px;
+    }
+    #ik_sch_book_add_records, #ik_sch_book_add_data{
+        max-width: 40%;
+    }
+    #ik_sch_book_existing:not(.full), #ik_sch_book_data_existing{
+        max-width: 50%;
+    }
+    #ik_sch_book_existing.full{
+        max-width: 100%;
+    }
+    #ik_sch_book_edit_records select, #ik_sch_book_edit_records .select2-container, #ik_sch_book_edit_records input, #ik_sch_book_edit_records textarea, #ik_sch_book_add_records input:not(.button-primary), #ik_sch_book_add_records textarea, #ik_sch_book_add_records select, #ik_sch_book_add_records .select2-container {
+        width: 325px;
+    }
+    #ik_sch_book_config input[type=text], #ik_sch_book_config input[type=password] {
+        width: 400px;
+    }
+}
+#ik_sch_book_edit_location_times{
+    display: flow-root;
+}
+#ik_sch_book_css_openinghours{
+    margin-top: 35px;	
+    margin-bottom: 45px;	
+}
+.ik_sch_book_css_openingtimes{
+    margin-top: 32px;
+}
+#ik_sch_book_edit_location_times_main, #ik_sch_book_block_datetimes, #ik_sch_book_location_services_wrapper .ik_sch_book_location_services{
+    float: left;
+    padding: 25px;
+    margin: 20px 1% 40px 0;
+    border-radius: 20px;
+    background: #f1f1f1;
+}
+.ik_sch_book_blocked_fields ul, .ik_sch_book_services_delivered_fields ul {
+    padding-left: 0;
+}
+.ik_sch_book_blocked_fields ul input{
+    max-width: 110px;
+    text-align: center;
+}
+.ik_sch_book_blocked_fields ul .ik_sch_book_fullday_label, .ik_sch_book_css_closeallday label{
+    position: relative;
+    top: -3.5px;
+}
+#ik_sch_book_block_datetimes .ik_sch_book_blocked_datetimes, #ik_sch_book_location_services_wrapper .ik_sch_book_services_delivered{
+    margin-top: 35px;
+}
+.ik_sch_book_blocked_fields, .ik_sch_book_services_delivered_fields{
+    margin-bottom: 30px;
+}
+.ik_sch_book_css_rowday{
+    display: table;
+    width: 100%;
+    max-width: 520px;
+    padding-bottom: 7px;
+}
+.ik_sch_book_css_rowday div {
+    float: left;
+    position: relative;
+}
+.ik_sch_book_css_addhours, .ik_sch_book_css_columnday, .ik_sch_book_css_closeallday, .ik_sch_book_css_deletehours {
+    position: relative;
+    top: 6px;
+    font-size: 16px;
+}
+.ik_sch_book_css_columnday{
+    width: 27%;
+}
+.ik_sch_book_css_columnhours{
+    width: 73%;		
+}
+.ik_sch_book_css_columnhours input[type=text]{
+    width: 100px;
+    text-align: center;
+}
+.ik_sch_book_css_columnhours input[type=checkbox]{
+    margin-right: 1px;
+}
+.ik_sch_book_css_columnhours .time_separator{
+    margin: 0 5px;
+}
+.ik_sch_book_css_columnhours .ik_sch_book_css_addhours, .ik_sch_book_css_columnhours .ik_sch_book_css_closeallday, .ik_sch_book_css_deletehours{
+    margin-left: 12px;
+}
+.ik_sch_book_chk_dif_deliveryhours{
+    margin: 40px 0 30px;
+    font-size: 18px;
+}
+.ik_sch_book_additionalhours{
+    float: right! important; 
+    margin-top: 5px;
+}
+.ik_sch_book_css_addhours, .ik_sch_book_css_deletehours{
+    cursor: pointer;
+}
+.ik_sch_book_disable_fields input[type=text]{
+    pointer-events: none;
+}
+#ik_sch_book_locations .ik_sch_book_locations_product_edit_container {
+    margin: 4px 10px;
+    display: flow-root;
+}
+#ik_sch_book_locations .ik_sch_book_delete_field{
+    text-decoration: none;
+    position: relative;
+    top: 4px;
+}
+#ik_sch_book_modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 65%;
+    max-width: 680px;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px! important;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+#ik_sch_book_modal .modal-content {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+#ik_sch_book_modal .modal-footer button{
+    margin-top: 12px;
+}
+#ik_sch_book_modal .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    line-height: 10px;
+}
+#ik_sch_book_modal .modal-title {
+    font-size: 24px;
+    margin: 0 0 15px 0;
+}
+#ik_sch_book_modal .modal-body h4 {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+#ik_sch_book_modal .data_info {
+    font-size: 14.5px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    line-height: 1.4;
+    padding-right: 20px;
+}
+#ik_sch_book_modal div .data_info {
+    max-height: 94px;
+    overflow: auto;
+}
+#ik_sch_book_modal .data_info .data_info, #ik_sch_book_modal .data_info .data_info * {
+    overflow: unset! important;
+}
+#ik_sch_book_modal .data_info a {
+    color: #007bff;
+    text-decoration: none;
+}
+#ik_sch_book_modal .data_box {
+    border: 1px solid #ccc;
+    padding: 5px 12px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    display: inline;
+    margin: 0px 5px 5px 0;
+    float: left;
+}
+#ik_sch_book_modal .invalid_data{
+    border-color: red;
+    margin: 0;    
+}
+#ik_sch_timepicker_modal {
+    position: fixed;
+    z-index: 99999! important;
+}
+#ik_sch_timepicker_modal ul{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 108px;
+    padding-right: 0px! important;
+}
+#ik_sch_timepicker_modal .ui-menu-item {
+    font-size: 18px;
+    line-height: 1.4;
+}
+#ik_sch_book_modal select {
+    max-width: 160px;
+    width: 100%;
+    margin: 2px;
+}
+#ik_sch_book_modal .crossed-line{
+    border-top: 1px solid #ccc;
+    width: 100%;
+    max-width: 630px;
+    margin: 10px 0;
+}
+#ik_sch_book_existing .ik_sch_book_button_view_modal .dashicons-update, #ik_sch_book_modal .data_info .dashicons-update{
+    animation: rotateAnimation_load 2s linear infinite;
+}
+#ik_sch_book_modal .edit_data_info{
+    cursor: pointer;
+}
+#ik_sch_book_calendar_container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    max-width: 96%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#ik_sch_book_calendar_container .weekday_name{
+    padding: 5px;
+}
+#ik_sch_book_calendar_container .calendar-day {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#ik_sch_book_calendar_container .calendar-day:not(.weekday_name) {
+	height: 77px;
+    padding: 10px;
+}
+#ik_sch_book_calendar_container .calendar-day:not(.weekday_name) .event-details{
+	overflow: auto;
+    height: 60px;
+}
+#ik_sch_book_calendar_container .day-number {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#ik_sch_book_calendar_container .ik_sch_book_event-details {
+    margin-top: 5px;
+    font-size: 12px;
+}
+#ik_sch_book_calendar_container .ik_sch_book_event {
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 2px 0;
+    display: flex;
+}
+#ik_sch_book_calendar_container .event_data_name{
+    text-overflow: ellipsis;
+    height: 17px;
+    width: 80%;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+#ik_sch_book_calendar_controls {
+    margin: 20px auto;
+    text-align: center;
+}
+#ik_sch_book_calendar_controls button {
+    margin: 0 20px;
+}
+#ik_sch_book_calendar_container ::-webkit-scrollbar, #ik_sch_book_modal ::-webkit-scrollbar {
+    width: 8px;
+}
+#ik_sch_book_calendar_container ::-webkit-scrollbar-thumb, #ik_sch_book_modal ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+    width: 8px;
+}
+#ik_sch_book_calendar_container ::-webkit-scrollbar-thumb:hover, #ik_sch_book_modal ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+.wp-core-ui #ik_sch_book_calendar_controls select {
+    min-height: 32px;
+    position: relative;
+    top: -2px;
+}
+@keyframes rotateAnimation_load {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@media (min-width: 767px){
+    #ik_sch_book_modal .container, #ik_sch_book_modal .container-fluid{width:100%;padding-right:var(--bs-gutter-x,.75rem);padding-left:var(--bs-gutter-x,.75rem);margin-right:auto;margin-left:auto}
+    #ik_sch_book_modal .row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x))}
+    #ik_sch_book_modal .col-md-8{flex:0 0 auto;width:66%}
+    #ik_sch_book_modal .col-md-6{flex:0 0 auto;width:50%}
+    #ik_sch_book_modal .col-md-4{flex:0 0 auto;width:33.3%}
+}
+@media (max-width: 470px){
+    .ik_sch_book_css_columnday, .ik_sch_book_css_columnhours {
+        width: 100%! important;
+        margin-bottom: 15px;
+    }
+    .ik_sch_book_additionalhours {
+        margin-top: -25px! important;
+    }
+    .ik_sch_book_css_addhours span, .ik_sch_book_css_deletehours span, .ik_sch_book_css_closeallday span, .ik_sch_book_css_closeallday input{
+        position: relative;
+        top: 5px;
+    }
+}
+@media (max-width: 340px){
+    .ik_sch_book_css_closeallday{
+        position: absolute! important;
+        margin-top: -40px;
+        margin-left: 0! important;
+    }
+    .ik_sch_book_css_columnday{
+        padding-bottom: 30px;
+    }
+}
+.select2-container {
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    /* inline-block for ie7 */
+    zoom: 1;
+    display: inline;
+    vertical-align: middle;
+}
+
+.select2-container,
+.select2-drop,
+.select2-search,
+.select2-search input {
+  -webkit-box-sizing: border-box; /* webkit */
+     -moz-box-sizing: border-box; /* firefox */
+          box-sizing: border-box; /* css3 */
+}
+
+.select2-container .select2-choice {
+    display: block;
+    height: 29px;
+    padding: 0 0 0 8px;
+    overflow: hidden;
+    position: relative;
+
+    border: 1px solid #aaa;
+    white-space: nowrap;
+    line-height: 26px;
+    color: #444;
+    text-decoration: none;
+
+    border-radius: 4px;
+
+    background-clip: padding-box;
+
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(0.5, #fff));
+    background-image: -webkit-linear-gradient(center bottom, #eee 0%, #fff 50%);
+    background-image: -moz-linear-gradient(center bottom, #eee 0%, #fff 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#eeeeee', GradientType = 0);
+    background-image: linear-gradient(to top, #eee 0%, #fff 50%);
+}
+
+.select2-container.select2-drop-above .select2-choice {
+    border-bottom-color: #aaa;
+
+    border-radius: 0 0 4px 4px;
+
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(0.9, #fff));
+    background-image: -webkit-linear-gradient(center bottom, #eee 0%, #fff 90%);
+    background-image: -moz-linear-gradient(center bottom, #eee 0%, #fff 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0);
+    background-image: linear-gradient(to bottom, #eee 0%, #fff 90%);
+}
+
+.select2-container.select2-allowclear .select2-choice .select2-chosen {
+    margin-right: 42px;
+}
+
+.select2-container .select2-choice > .select2-chosen {
+    margin-right: 26px;
+    display: block;
+    overflow: hidden;
+    padding-top: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: none;
+    width: auto;
+}
+
+.select2-container .select2-choice abbr {
+    display: none;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 24px;
+    top: 8px;
+
+    font-size: 1px;
+    text-decoration: none;
+
+    border: 0;
+    background: url('select2.png') right top no-repeat;
+    cursor: pointer;
+    outline: 0;
+}
+
+.select2-container.select2-allowclear .select2-choice abbr {
+    display: inline-block;
+}
+
+.select2-container .select2-choice abbr:hover {
+    background-position: right -11px;
+    cursor: pointer;
+}
+
+.select2-drop-mask {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    opacity: 0;
+    z-index: 9998;
+    /* styles required for IE to work */
+    background-color: #fff;
+    filter: alpha(opacity=0);
+}
+
+.select2-drop {
+    width: 100%;
+    margin-top: -1px;
+    position: absolute;
+    z-index: 9999;
+    top: 100%;
+
+    background: #fff;
+    color:#000;
+    border: 1px solid #aaa;
+    border-top: 0;
+
+    border-radius: 0 0 4px 4px;
+
+    -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
+            box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
+}
+
+.select2-drop.select2-drop-above {
+    margin-top: 1px;
+    border-top: 1px solid #aaa;
+    border-bottom: 0;
+
+    border-radius: 4px 4px 0 0;
+
+    -webkit-box-shadow: 0 -4px 5px rgba(0, 0, 0, .15);
+            box-shadow: 0 -4px 5px rgba(0, 0, 0, .15);
+}
+
+.select2-drop-active {
+    border: 1px solid #5897fb;
+    border-top: none;
+}
+
+.select2-drop.select2-drop-above.select2-drop-active {
+    border-top: 1px solid #5897fb;
+}
+
+.select2-drop-auto-width {
+    border-top: 1px solid #aaa;
+    width: auto;
+}
+
+.select2-drop-auto-width .select2-search {
+    padding-top: 4px;
+}
+
+.select2-container .select2-choice .select2-arrow {
+    display: inline-block;
+    width: 18px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    border-left: 1px solid #aaa;
+    border-radius: 0 4px 4px 0;
+
+    background-clip: padding-box;
+
+    background: #ccc;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ccc), color-stop(0.6, #eee));
+    background-image: -webkit-linear-gradient(center bottom, #ccc 0%, #eee 60%);
+    background-image: -moz-linear-gradient(center bottom, #ccc 0%, #eee 60%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#eeeeee', endColorstr = '#cccccc', GradientType = 0);
+    background-image: linear-gradient(to top, #ccc 0%, #eee 60%);
+}
+
+.select2-container .select2-choice .select2-arrow b {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('select2.png') no-repeat 0 1px;
+}
+
+.select2-search {
+    display: inline-block;
+    width: 100%;
+    min-height: 26px;
+    margin: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    position: relative;
+    z-index: 10000;
+
+    white-space: nowrap;
+}
+
+.select2-search input {
+    width: 100%;
+    height: auto !important;
+    min-height: 26px;
+    padding: 4px 20px 4px 5px;
+    margin: 0;
+
+    outline: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+
+    border: 1px solid #aaa;
+    border-radius: 0;
+
+    -webkit-box-shadow: none;
+            box-shadow: none;
+
+    background: #fff url('select2.png') no-repeat 100% -22px;
+    background: url('select2.png') no-repeat 100% -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, #fff), color-stop(0.99, #eee));
+    background: url('select2.png') no-repeat 100% -22px, -webkit-linear-gradient(center bottom, #fff 85%, #eee 99%);
+    background: url('select2.png') no-repeat 100% -22px, -moz-linear-gradient(center bottom, #fff 85%, #eee 99%);
+    background: url('select2.png') no-repeat 100% -22px, linear-gradient(to bottom, #fff 85%, #eee 99%) 0 0;
+}
+
+.select2-drop.select2-drop-above .select2-search input {
+    margin-top: 4px;
+}
+
+.select2-search input.select2-active {
+    background: #fff url('select2-spinner.gif') no-repeat 100%;
+    background: url('select2-spinner.gif') no-repeat 100%, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, #fff), color-stop(0.99, #eee));
+    background: url('select2-spinner.gif') no-repeat 100%, -webkit-linear-gradient(center bottom, #fff 85%, #eee 99%);
+    background: url('select2-spinner.gif') no-repeat 100%, -moz-linear-gradient(center bottom, #fff 85%, #eee 99%);
+    background: url('select2-spinner.gif') no-repeat 100%, linear-gradient(to bottom, #fff 85%, #eee 99%) 0 0;
+}
+
+.select2-container-active .select2-choice,
+.select2-container-active .select2-choices {
+    border: 1px solid #5897fb;
+    outline: none;
+
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+            box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+.select2-dropdown-open .select2-choice {
+    border-bottom-color: transparent;
+    -webkit-box-shadow: 0 1px 0 #fff inset;
+            box-shadow: 0 1px 0 #fff inset;
+
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+    background-color: #eee;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #fff), color-stop(0.5, #eee));
+    background-image: -webkit-linear-gradient(center bottom, #fff 0%, #eee 50%);
+    background-image: -moz-linear-gradient(center bottom, #fff 0%, #eee 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0);
+    background-image: linear-gradient(to top, #fff 0%, #eee 50%);
+}
+
+.select2-dropdown-open.select2-drop-above .select2-choice,
+.select2-dropdown-open.select2-drop-above .select2-choices {
+    border: 1px solid #5897fb;
+    border-top-color: transparent;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(0.5, #eee));
+    background-image: -webkit-linear-gradient(center top, #fff 0%, #eee 50%);
+    background-image: -moz-linear-gradient(center top, #fff 0%, #eee 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0);
+    background-image: linear-gradient(to bottom, #fff 0%, #eee 50%);
+}
+
+.select2-dropdown-open .select2-choice .select2-arrow {
+    background: transparent;
+    border-left: none;
+    filter: none;
+}
+.select2-dropdown-open .select2-choice .select2-arrow b {
+    background-position: -18px 1px;
+}
+
+.select2-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/* results */
+.select2-results {
+    max-height: 200px;
+    padding: 0 0 0 4px;
+    margin: 4px 4px 4px 0;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.select2-results ul.select2-result-sub {
+    margin: 0;
+    padding-left: 0;
+}
+
+.select2-results li {
+    list-style: none;
+    display: list-item;
+    background-image: none;
+}
+
+.select2-results li.select2-result-with-children > .select2-result-label {
+    font-weight: bold;
+}
+
+.select2-results .select2-result-label {
+    padding: 3px 7px 4px;
+    margin: 0;
+    cursor: pointer;
+
+    min-height: 1em;
+
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+}
+
+.select2-results-dept-1 .select2-result-label { padding-left: 20px }
+.select2-results-dept-2 .select2-result-label { padding-left: 40px }
+.select2-results-dept-3 .select2-result-label { padding-left: 60px }
+.select2-results-dept-4 .select2-result-label { padding-left: 80px }
+.select2-results-dept-5 .select2-result-label { padding-left: 100px }
+.select2-results-dept-6 .select2-result-label { padding-left: 110px }
+.select2-results-dept-7 .select2-result-label { padding-left: 120px }
+
+.select2-results .select2-highlighted {
+    background: #3875d7;
+    color: #fff;
+}
+
+.select2-results li em {
+    background: #feffde;
+    font-style: normal;
+}
+
+.select2-results .select2-highlighted em {
+    background: transparent;
+}
+
+.select2-results .select2-highlighted ul {
+    background: #fff;
+    color: #000;
+}
+
+
+.select2-results .select2-no-results,
+.select2-results .select2-searching,
+.select2-results .select2-selection-limit {
+    background: #f4f4f4;
+    display: list-item;
+    padding-left: 5px;
+}
+
+/*
+disabled look for disabled choices in the results dropdown
+*/
+.select2-results .select2-disabled.select2-highlighted {
+    color: #666;
+    background: #f4f4f4;
+    display: list-item;
+    cursor: default;
+}
+.select2-results .select2-disabled {
+  background: #f4f4f4;
+  display: list-item;
+  cursor: default;
+}
+
+.select2-results .select2-selected {
+    display: none;
+}
+
+.select2-more-results.select2-active {
+    background: #f4f4f4 url('select2-spinner.gif') no-repeat 100%;
+}
+
+.select2-more-results {
+    background: #f4f4f4;
+    display: list-item;
+}
+
+/* disabled styles */
+
+.select2-container.select2-container-disabled .select2-choice {
+    background-color: #f4f4f4;
+    background-image: none;
+    border: 1px solid #ddd;
+    cursor: default;
+}
+
+.select2-container.select2-container-disabled .select2-choice .select2-arrow {
+    background-color: #f4f4f4;
+    background-image: none;
+    border-left: 0;
+}
+
+.select2-container.select2-container-disabled .select2-choice abbr {
+    display: none;
+}
+
+
+/* multiselect */
+
+.select2-container-multi .select2-choices {
+    height: auto !important;
+    height: 1%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border: 1px solid #aaa;
+    cursor: text;
+    overflow: hidden;
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #eee), color-stop(15%, #fff));
+    background-image: -webkit-linear-gradient(top, #eee 1%, #fff 15%);
+    background-image: -moz-linear-gradient(top, #eee 1%, #fff 15%);
+    background-image: linear-gradient(to bottom, #eee 1%, #fff 15%);
+}
+
+.select2-locked {
+  padding: 3px 5px 3px 5px !important;
+}
+
+.select2-container-multi .select2-choices {
+    min-height: 26px;
+}
+
+.select2-container-multi.select2-container-active .select2-choices {
+    border: 1px solid #5897fb;
+    outline: none;
+
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+            box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+.select2-container-multi .select2-choices li {
+    float: left;
+    list-style: none;
+}
+html[dir="rtl"] .select2-container-multi .select2-choices li
+{
+    float: right;
+}
+.select2-container-multi .select2-choices .select2-search-field {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.select2-container-multi .select2-choices .select2-search-field input {
+    padding: 5px;
+    margin: 1px 0;
+
+    font-family: sans-serif;
+    font-size: 100%;
+    color: #666;
+    outline: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background: transparent !important;
+}
+
+.select2-container-multi .select2-choices .select2-search-field input.select2-active {
+    background: #fff url('select2-spinner.gif') no-repeat 100% !important;
+}
+
+.select2-default {
+    color: #999 !important;
+}
+
+.select2-container-multi .select2-choices .select2-search-choice {
+    padding: 3px 5px 3px 18px;
+    margin: 3px 0 3px 5px;
+    position: relative;
+    line-height: 13px;
+    color: #333;
+    cursor: default;
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+    background-clip: padding-box;
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+    background-color: #e4e4e4;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#f4f4f4', GradientType=0);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eee));
+    background-image: -webkit-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
+    background-image: -moz-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
+    background-image: linear-gradient(to top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
+}
+html[dir="rtl"] .select2-container-multi .select2-choices .select2-search-choice
+{
+    margin-left: 0;
+    margin-right: 5px;
+}
+.select2-container-multi .select2-choices .select2-search-choice .select2-chosen {
+    cursor: default;
+}
+.select2-container-multi .select2-choices .select2-search-choice-focus {
+    background: #d4d4d4;
+}
+
+.select2-search-choice-close {
+    display: block;
+    width: 12px;
+    height: 13px;
+    position: absolute;
+    right: 3px;
+    top: 4px;
+
+    font-size: 1px;
+    outline: none;
+    background: url('select2.png') right top no-repeat;
+}
+html[dir="rtl"] .select2-search-choice-close {
+    right: auto;
+    left: 3px;
+}
+
+.select2-container-multi .select2-search-choice-close {
+    left: 3px;
+}
+
+.select2-container-multi .select2-choices .select2-search-choice .select2-search-choice-close:hover {
+  background-position: right -11px;
+}
+.select2-container-multi .select2-choices .select2-search-choice-focus .select2-search-choice-close {
+    background-position: right -11px;
+}
+
+/* disabled styles */
+.select2-container-multi.select2-container-disabled .select2-choices {
+    background-color: #f4f4f4;
+    background-image: none;
+    border: 1px solid #ddd;
+    cursor: default;
+}
+
+.select2-container-multi.select2-container-disabled .select2-choices .select2-search-choice {
+    padding: 3px 5px 3px 5px;
+    border: 1px solid #ddd;
+    background-image: none;
+    background-color: #f4f4f4;
+}
+
+.select2-container-multi.select2-container-disabled .select2-choices .select2-search-choice .select2-search-choice-close {    display: none;
+    background: none;
+}
+/* end multiselect */
+
+
+.select2-result-selectable .select2-match,
+.select2-result-unselectable .select2-match {
+    text-decoration: underline;
+}
+
+.select2-offscreen, .select2-offscreen:focus {
+    clip: rect(0 0 0 0) !important;
+    width: 1px !important;
+    height: 1px !important;
+    border: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    outline: 0 !important;
+    left: 0px !important;
+    top: 0px !important;
+}
+
+.select2-display-none {
+    display: none;
+}
+
+.select2-measure-scrollbar {
+    position: absolute;
+    top: -10000px;
+    left: -10000px;
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+
+/* Retina-ize icons */
+
+.draggable-item:before {
+    font-family: dashicons;
+    display: inline-block;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+    content: "\f545";
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx)  {
+    .select2-search input,
+    .select2-search-choice-close,
+    .select2-container .select2-choice abbr,
+    .select2-container .select2-choice .select2-arrow b {
+        background-image: url('select2x2.png') !important;
+        background-repeat: no-repeat !important;
+        background-size: 60px 40px !important;
+    }
+
+    .select2-search input {
+        background-position: 100% -21px !important;
+    }
+}

@@ -1,0 +1,1166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-01 06:48+0000\n"
+"PO-Revision-Date: 2024-01-31 11:49-0300\n"
+"Last-Translator: \n"
+"Language-Team: Deutsch (Schweiz)\n"
+"Language: de_CH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Loco-Version: 2.6.6; wp-6.4.1\n"
+
+#: include/classes/class.scheduleservices.php:135
+#| msgid "hour"
+msgid " hour"
+msgstr " stunde"
+
+#: include/classes/class.scheduleservices.php:138
+#| msgid "hours"
+msgid " hours"
+msgstr " stunden"
+
+#: include/classes/class.scheduleservices.php:140
+#| msgid "minute"
+msgid " minute"
+msgstr " minute"
+
+#: include/classes/class.scheduleservices.php:142
+#| msgid "minutes"
+msgid " minutes"
+msgstr " minuten"
+
+#: templates/config.php:80
+msgid "Accept bookings automatically."
+msgstr "Buchungen automatisch akzeptieren."
+
+#: include/ajax_functions.php:404
+#: include/classes/class.schedulebooking.php:2428
+msgid "Add another service"
+msgstr "Weiteren Service"
+
+#: templates/edit_location.php:93
+msgid "Add Blocked dates"
+msgstr "Gesperrte Termine hinzufügen"
+
+#: templates/services.php:126
+msgid "Add Categories"
+msgstr "Kategorien hinzufügen"
+
+#: include/woocommerce.php:96
+msgid "Add Location"
+msgstr "Ort hinzufügen"
+
+#: templates/locations.php:57
+msgid "Add Locations"
+msgstr "Standorte hinzufügen"
+
+#: include/classes/class.schedulebooking.php:2622
+msgid "Select Date and Time"
+msgstr "Datum und Uhrzeit auswählen"
+
+#: include/classes/class.schedulebooking.php:666
+msgid "Add New"
+msgstr "Neue hinzufügen"
+
+#: templates/services.php:63 templates/services.php:69
+msgid "Add New Service"
+msgstr "Neue Dienstleistung hinzufügen"
+
+#: templates/staff.php:48
+msgid "Add New Staff"
+msgstr "Neues Personal"
+
+#: include/classes/class.schedulebooking.php:1565
+#: include/classes/class.schedulebooking.php:1630
+#: include/shortcodes/form_shortcode.php:90
+#: include/shortcodes/form_shortcode.php:144 templates/edit_location.php:157
+#: templates/services.php:91
+msgid "Add Service"
+msgstr "Hinzufügen"
+
+#: templates/staff.php:62
+msgid "Add Staff"
+msgstr "Personal hinzufügen"
+
+#: include/woocommerce.php:192
+msgid "Add to cart"
+msgstr "In den Warenkorb legen"
+
+#: templates/edit_location.php:381
+msgid "Address"
+msgstr "Adresse"
+
+#: include/classes/class.schedulebooking.php:1315
+msgid "All"
+msgstr "Alle"
+
+#: include/classes/class.schedulebooking.php:1410
+msgid "All Services"
+msgstr "Alle Dienstleistungen"
+
+#: include/classes/class.bookingstaff.php:159
+#: include/classes/class.bookingstaff.php:463
+msgid "Any Staff Member"
+msgstr "Jedes Personalmitglied"
+
+#: include/classes/class.schedulebooking.php:1844
+msgid ""
+"Appointment cancellations must be reported at least %s hours in advance. "
+"Otherwise the costs must be offset."
+msgstr ""
+"Terminstornierungen müssen mindestens %sh vorher gemeldet werden. Ansonten "
+"müssen die Kosten verrechnet werden."
+
+#: include/classes/class.schedulebooking.php:77
+#: include/classes/class.schedulebooking.php:1881 templates/calendar.php:24
+msgid "April"
+msgstr "April"
+
+#: templates/calendar.php:513 templates/entries.php:97
+#: templates/entries.php:129 templates/entries.php:343
+#: templates/locations.php:122 templates/locations.php:154
+#: templates/services.php:307 templates/services.php:347
+#: templates/staff.php:177 templates/staff.php:137
+msgid "Are you sure to delete?"
+msgstr "Sind Sie sicher, dass Sie löschen möchten?"
+
+#: include/classes/class.schedulebooking.php:81
+#: include/classes/class.schedulebooking.php:1893 templates/calendar.php:28
+msgid "August"
+msgstr "August"
+
+#: templates/edit_location.php:33
+msgid "Available Hours"
+msgstr "Verfügbare Zeiten"
+
+#: templates/edit_location.php:45
+msgid "Block Dates"
+msgstr "Termine blockieren"
+
+#: include/ajax_functions.php:273 include/ajax_functions.php:362
+#: include/ajax_functions.php:413
+#: include/classes/class.schedulebooking.php:1641
+msgid "Book"
+msgstr "Termin buchen"
+
+#. Plugin Name of the plugin/theme
+msgid "Book - Schedule Locations"
+msgstr "Buchen – Standorte planen"
+
+#: include/menus.php:35
+msgid "Booking"
+msgstr "Buchung"
+
+#: templates/entries.php:15
+msgid "Booking - Records"
+msgstr "Buchung"
+
+#: include/shortcodes/book_location_shortcode.php:398
+#: include/woocommerce.php:363
+msgid "Booking Confirmation"
+msgstr "Buchungsbestätigung"
+
+#: include/classes/class.schedulebooking.php:701
+#: include/classes/class.schedulebooking.php:1708
+msgid "Booking Date"
+msgstr "Buchungsdatum"
+
+#: include/classes/class.schedulebooking.php:1674
+msgid "Booking Info"
+msgstr "Buchungsinformationen"
+
+#: templates/config.php:92
+msgid "Booking limit per staff or time block (recommended: 1)"
+msgstr "Buchungslimit pro Mitarbeiter oder Zeitblock (empfohlen: 1)"
+
+#: include/init.php:71
+msgid "Bookings Admin"
+msgstr "Buchungsverwaltung"
+
+#: include/classes/class.schedulebooking.php:700
+#: include/classes/class.schedulebooking.php:1702
+msgid "Branch"
+msgstr "Zweigstelle"
+
+#: include/classes/class.schedulebooking.php:1837
+msgid "Branch:"
+msgstr "Filiale:"
+
+#: include/menus.php:39
+msgid "Calendar"
+msgstr "Kalender"
+
+#: templates/edit_location.php:374 templates/edit_location.php:381
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: include/classes/class.scheduleservices.php:492
+msgid "Category"
+msgstr "Kategorie"
+
+#: include/classes/class.schedulelocations.php:444 include/woocommerce.php:51
+msgid "Category Icon URL"
+msgstr "Kategorie-Icon-URL"
+
+#: include/classes/class.bookingstaff.php:459
+msgid "Choose employee:"
+msgstr "Mitarbeiter auswählen:"
+
+#: include/ajax_functions.php:412
+#: include/shortcodes/book_location_shortcode.php:397
+msgid "Close"
+msgstr "Schließen"
+
+#: include/classes/class.scheduleavailabledays.php:496
+#: include/classes/class.scheduleavailabledays.php:534
+#: include/classes/class.schedulelocations.php:624
+msgid "Closed"
+msgstr "Geschlossen"
+
+#: include/menus.php:43
+msgid "Config"
+msgstr "Konfiguration"
+
+#: include/classes/class.schedulebooking.php:534
+#: include/classes/class.schedulebooking.php:1525 templates/config.php:132
+msgid "Confirmed"
+msgstr "Bestätigt"
+
+#: templates/config.php:143
+msgid "Create keys at"
+msgstr "Schlüssel erstellen bei"
+
+#: templates/services.php:52 templates/services.php:83
+msgid "Currency"
+msgstr "Währung"
+
+#: templates/config.php:138
+msgid "Currency:"
+msgstr "Währung:"
+
+#: templates/edit_location.php:131 templates/edit_location.php:147
+#: templates/edit_location.php:348
+msgid "Custom Price"
+msgstr "Individueller Preis"
+
+#: include/woocommerce.php:364 templates/edit_location.php:64
+msgid "Date"
+msgstr "Termine"
+
+#: templates/config.php:91
+msgid "Date Format:"
+msgstr "Datumsformat:"
+
+#: include/classes/class.schedulebooking.php:915
+msgid "Day"
+msgstr "Tag"
+
+#: include/classes/class.schedulebooking.php:858
+#: include/classes/class.schedulebooking.php:916
+#: include/classes/class.schedulebooking.php:917
+#: include/classes/class.schedulebooking.php:918
+#: include/classes/class.schedulebooking.php:919
+#: include/classes/class.schedulebooking.php:920
+#: include/classes/class.schedulebooking.php:921
+#: include/classes/class.schedulebooking.php:922
+#: include/classes/class.schedulebooking.php:923
+#: include/classes/class.schedulebooking.php:924
+#: include/classes/class.schedulebooking.php:925
+#: include/classes/class.schedulebooking.php:926
+#: include/classes/class.schedulebooking.php:927
+#: include/classes/class.schedulebooking.php:928
+msgid "Days"
+msgstr "Tage"
+
+#: include/classes/class.schedulebooking.php:1831
+msgid "Dear %s,"
+msgstr "Sehr geehrte(r) %s,"
+
+#: include/classes/class.schedulebooking.php:85
+#: include/classes/class.schedulebooking.php:1905 templates/calendar.php:32
+msgid "December"
+msgstr "Dezember"
+
+#: templates/config.php:129
+msgid "Default Status for bookings:"
+msgstr "Standardstatus für Buchungen:"
+
+#: include/classes/class.schedulebooking.php:707
+#: include/classes/class.schedulebooking.php:742
+#: include/classes/class.schedulelocations.php:369
+#: include/classes/class.schedulelocations.php:399
+#: include/classes/class.scheduleservices.php:498
+#: include/classes/class.scheduleservices.php:550
+#: templates/edit_location.php:71 templates/edit_location.php:87
+#: templates/edit_location.php:135 templates/edit_location.php:151
+#: templates/locations.php:54 templates/locations.php:74
+#: templates/services.php:112 templates/services.php:120
+msgid "Delete"
+msgstr "Löschen"
+
+#: templates/staff.php:28 templates/staff.php:51
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#: include/classes/class.schedulelocations.php:398
+#: include/classes/class.scheduleservices.php:549
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: templates/edit_location.php:26
+msgid "Edit Location: "
+msgstr "Standort bearbeiten: "
+
+#: templates/locations.php:49
+msgid "Edit Locations"
+msgstr "Standorte bearbeiten"
+
+#: templates/services.php:37
+msgid "Edit Service"
+msgstr "Dienstleistung bearbeiten"
+
+#: templates/services.php:27
+msgid "Edit Services"
+msgstr "Dienstleistungen bearbeiten"
+
+#: templates/staff.php:24
+msgid "Edit Staff"
+msgstr "Mitarbeiter Bearbeiten"
+
+#: include/ajax_functions.php:388 include/classes/class.schedulebooking.php:703
+#: include/classes/class.schedulebooking.php:1611
+#: include/classes/class.schedulebooking.php:1714
+#: include/shortcodes/form_shortcode.php:76
+msgid "Email"
+msgstr "E-Mail Adresse"
+
+#: templates/config.php:123
+msgid "Email Sender:"
+msgstr "E-Mail-Absender:"
+
+#: include/classes/class.schedulebooking.php:2034 include/woocommerce.php:391
+msgid "Employee:"
+msgstr "Mitarbeiter:"
+
+#: templates/config.php:167
+msgid "Enable Recaptcha."
+msgstr "ReCaptcha aktivieren."
+
+#: include/ajax_functions.php:390
+#: include/classes/class.schedulebooking.php:1613
+msgid "Enter Your Email"
+msgstr "E-Mail Adresse"
+
+#: include/ajax_functions.php:386
+#: include/classes/class.schedulebooking.php:1609
+msgid "Enter Your Name"
+msgstr "Vor- und Nachname"
+
+#: include/ajax_functions.php:394
+#: include/classes/class.schedulebooking.php:1617
+msgid "Enter Your Phone"
+msgstr "Telefonnummer"
+
+#: include/woocommerce.php:135 include/woocommerce.php:136
+#: include/woocommerce.php:138 templates/services.php:56
+#: templates/services.php:87
+msgid "Estimated Delivery Time (in minutes)"
+msgstr "Geschätzte Lieferzeit (in Minuten)"
+
+#: templates/services.php:57 templates/services.php:88
+msgid "Example: 45"
+msgstr "Beispiel: 45"
+
+#: templates/services.php:49 templates/services.php:80
+msgid "Example: 9"
+msgstr "Beispiel: 9"
+
+#: include/classes/class.schedulebooking.php:75
+#: include/classes/class.schedulebooking.php:1875 templates/calendar.php:22
+msgid "February"
+msgstr "Februar"
+
+#: include/classes/class.schedulebooking.php:684
+msgid "Filter by date"
+msgstr "Nach Datum filtern"
+
+#: include/shortcodes/form_shortcode.php:64
+msgid "Fist Name"
+msgstr "Vorname"
+
+#: include/classes/class.schedulelocations.php:605
+msgid "Fri"
+msgstr "Fr"
+
+#: include/classes/class.schedulebooking.php:70
+msgid "Fri."
+msgstr "Fr."
+
+#: include/classes/class.scheduleavailabledays.php:58
+#: include/classes/class.schedulebooking.php:61
+#: include/classes/class.schedulebooking.php:1868
+msgid "Friday"
+msgstr "Freitag"
+
+#: include/classes/class.schedulebooking.php:1271
+#: include/classes/class.schedulebooking.php:1317
+msgid "From "
+msgstr "Ab "
+
+#: templates/edit_location.php:68 templates/edit_location.php:84
+msgid "Full Day"
+msgstr "Ganztägig"
+
+#. Author of the plugin/theme
+msgid "Gabriel Caroprese"
+msgstr "Gabriel Caroprese"
+
+#: templates/services.php:48 templates/services.php:79
+msgid "General Price (value only)"
+msgstr "Allgemeiner Preis (nur Wert)"
+
+#: templates/calendar.php:34
+msgid "Go to Date"
+msgstr "Zu Datum gehen"
+
+#: include/classes/class.schedulebooking.php:892
+msgid "Hour"
+msgstr "Stunde"
+
+#: include/classes/class.schedulebooking.php:891
+#: include/classes/class.schedulebooking.php:893
+#: include/classes/class.schedulebooking.php:894
+#: include/classes/class.schedulebooking.php:895
+#: include/classes/class.schedulebooking.php:896
+#: include/classes/class.schedulebooking.php:897
+#: include/classes/class.schedulebooking.php:898
+#: include/classes/class.schedulebooking.php:899
+#: include/classes/class.schedulebooking.php:900
+#: include/classes/class.schedulebooking.php:901
+#: include/classes/class.schedulebooking.php:902
+#: include/classes/class.schedulebooking.php:903
+#: include/classes/class.schedulebooking.php:904
+#: include/classes/class.schedulebooking.php:905
+#: include/classes/class.schedulebooking.php:906
+#: include/classes/class.schedulebooking.php:907
+#: include/classes/class.schedulebooking.php:908
+#: include/classes/class.schedulebooking.php:909
+#: include/classes/class.schedulebooking.php:910
+#: include/classes/class.schedulebooking.php:911
+#: include/classes/class.schedulebooking.php:912
+#: include/classes/class.schedulebooking.php:913
+#: include/classes/class.schedulebooking.php:914
+msgid "Hours"
+msgstr "Stunden"
+
+#: templates/config.php:109
+msgid "Hours gap to book:"
+msgstr "Stundenabstand zur Buchung:"
+
+#: include/classes/class.schedulelocations.php:633
+msgid "Hr"
+msgstr "Uhr"
+
+#. Author URI of the plugin/theme
+msgid "https://mediaclick.ch/"
+msgstr "https://mediaclick.ch/"
+
+#: include/classes/class.schedulebooking.php:698
+#: include/classes/class.schedulelocations.php:366
+#: include/classes/class.scheduleservices.php:486
+msgid "ID"
+msgstr "ID"
+
+#: include/classes/class.schedulebooking.php:1633
+#: include/classes/class.schedulebooking.php:1744
+msgid "Internal Note"
+msgstr "Interne Notiz"
+
+#: include/classes/class.schedulebooking.php:1734
+msgid "IP"
+msgstr "IP"
+
+#: include/classes/class.schedulebooking.php:74
+#: include/classes/class.schedulebooking.php:1872 templates/calendar.php:21
+msgid "January"
+msgstr "Januar"
+
+#: include/classes/class.schedulebooking.php:80
+#: include/classes/class.schedulebooking.php:1890 templates/calendar.php:27
+msgid "July"
+msgstr "Juli"
+
+#: include/classes/class.schedulebooking.php:79
+#: include/classes/class.schedulebooking.php:1887 templates/calendar.php:26
+msgid "June"
+msgstr "Juni"
+
+#: templates/config.php:146
+msgid "Key"
+msgstr "Schlüssel"
+
+#: include/classes/class.schedulebooking.php:1730
+msgid "Last Edit"
+msgstr "Letzte Bearbeitung"
+
+#: include/classes/class.schedulebooking.php:1696
+#: include/shortcodes/form_shortcode.php:69
+msgid "Last Name"
+msgstr "Nachname"
+
+#: templates/config.php:116
+msgid "Limit bookings to:"
+msgstr "Buchungen begrenzen auf:"
+
+#: include/classes/class.schedulelocations.php:367 include/woocommerce.php:366
+#: templates/locations.php:54 templates/locations.php:74
+#: include/classes/class.bookingstaff.php:381
+msgid "Location"
+msgstr "Standort"
+
+#: include/classes/class.schedulebooking.php:2396
+#: include/templates/staff.php:35 include/templates/staff.php:58
+msgid "Location: "
+msgstr "Standort: "
+
+#: include/menus.php:37 include/woocommerce.php:44
+msgid "Locations"
+msgstr "Standorte"
+
+#: include/ajax_functions.php:368
+#: include/classes/class.schedulebooking.php:1586
+msgid "Make an Appointment"
+msgstr "Termin vereinbaren"
+
+#: templates/edit_location.php:381
+msgid "Map Embed SRC"
+msgstr "Map Embed SRC"
+
+#: templates/edit_location.php:381
+msgid "Map Link"
+msgstr "Kartenlink"
+
+#: include/classes/class.schedulebooking.php:76
+#: include/classes/class.schedulebooking.php:1878 templates/calendar.php:23
+msgid "March"
+msgstr "März"
+
+#: include/classes/class.schedulebooking.php:78
+#: include/classes/class.schedulebooking.php:1884 templates/calendar.php:25
+msgid "May"
+msgstr "Mai"
+
+#: include/classes/class.schedulebooking.php:1757
+#: include/shortcodes/form_shortcode.php:108
+msgid "Message"
+msgstr "Nachricht"
+
+#: include/classes/class.schedulelocations.php:593
+msgid "Mon"
+msgstr "Mo"
+
+#: include/classes/class.schedulebooking.php:66
+msgid "Mon."
+msgstr "Mo."
+
+#: include/classes/class.scheduleavailabledays.php:34
+#: include/classes/class.schedulebooking.php:57
+#: include/classes/class.schedulebooking.php:1868
+msgid "Monday"
+msgstr "Montag"
+
+#: include/classes/class.schedulebooking.php:859
+msgid "Month"
+msgstr "Monat"
+
+#: templates/calendar.php:547
+msgid "Month View"
+msgstr "Monatsansicht"
+
+#: include/classes/class.schedulebooking.php:860
+#: include/classes/class.schedulebooking.php:861
+#: include/classes/class.schedulebooking.php:862
+#: include/classes/class.schedulebooking.php:863
+#: include/classes/class.schedulebooking.php:864
+#: include/classes/class.schedulebooking.php:865
+#: include/classes/class.schedulebooking.php:866
+#: include/classes/class.schedulebooking.php:867
+#: include/classes/class.schedulebooking.php:868
+#: include/classes/class.schedulebooking.php:869
+msgid "Months"
+msgstr "Monate"
+
+#: include/classes/class.schedulebooking.php:699
+#: include/classes/class.schedulebooking.php:1690
+#: include/classes/class.scheduleservices.php:489
+msgid "Name"
+msgstr "Name"
+
+#: include/classes/class.schedulebooking.php:1838
+msgid "New Status:"
+msgstr "Neuer Status:"
+
+#: templates/calendar.php:36
+msgid "Next Month"
+msgstr "Nächster Monat"
+
+#: templates/calendar.php:35
+msgid "Next Week"
+msgstr "Nächste Woche"
+
+#: include/classes/class.scheduleavailabledays.php:746
+msgid "No Services Added"
+msgstr "Keine Dienstleistungen hinzugefügt"
+
+#: include/classes/class.scheduleservices.php:269
+#: include/classes/class.scheduleservices.php:292
+msgid "None"
+msgstr "Keine"
+
+#: templates/entries.php:33
+msgid "Nothing yet!"
+msgstr "Bisher nichts!"
+
+#: include/classes/class.schedulebooking.php:84
+#: include/classes/class.schedulebooking.php:1902 templates/calendar.php:31
+msgid "November"
+msgstr "November"
+
+#: include/classes/class.schedulebooking.php:83
+#: include/classes/class.schedulebooking.php:1899 templates/calendar.php:30
+msgid "October"
+msgstr "Oktober"
+
+#: include/classes/class.schedulebooking.php:673
+msgid "On/From Date"
+msgstr "Am/Vom Datum"
+
+#: include/classes/class.schedulelocations.php:697
+msgid "Opening Hours"
+msgstr "Öffnungszeiten"
+
+#: include/classes/class.schedulebooking.php:1149
+msgid "Other Services"
+msgstr "Andere Dienstleistungen"
+
+#: include/shortcodes/book_location_shortcode.php:376
+msgid "Our Services"
+msgstr "Dienstleistungen"
+
+#: include/classes/class.schedulebooking.php:533
+#: include/classes/class.schedulebooking.php:1531 templates/config.php:131
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: include/ajax_functions.php:392 include/classes/class.schedulebooking.php:702
+#: include/classes/class.schedulebooking.php:1615
+#: include/classes/class.schedulebooking.php:1720
+#: include/shortcodes/form_shortcode.php:81
+msgid "Phone"
+msgstr "Telefonnummer"
+
+#: include/ajax_functions.php:555
+msgid "Please fix the required fields."
+msgstr "Bitte korrigieren Sie die erforderlichen Felder."
+
+#: templates/calendar.php:18
+msgid "Previous Month"
+msgstr "Vorheriger Monat"
+
+#: templates/calendar.php:17
+msgid "Previous Week"
+msgstr "Letzte Woche"
+
+#: include/classes/class.scheduleservices.php:495
+#: templates/edit_location.php:127 templates/edit_location.php:143
+#: templates/edit_location.php:348
+msgid "Price"
+msgstr "Preis"
+
+#: include/classes/class.schedulebooking.php:1147
+msgid "Price List"
+msgstr "Preisliste"
+
+#: include/classes/class.schedulebooking.php:535
+#: include/classes/class.schedulebooking.php:1528
+msgid "Rejected"
+msgstr "Abgelehnt"
+
+#: include/shortcodes/form_shortcode.php:134
+msgid "Remove"
+msgstr "Entfernen"
+
+#: include/classes/class.schedulebooking.php:1678
+msgid "Remove Reservation"
+msgstr "Reservierung entfernen"
+
+#: include/classes/class.schedulebooking.php:1726
+msgid "Request Date"
+msgstr "Anforderungsdatum"
+
+#: include/menus.php:36
+msgid "Requests"
+msgstr "Anfragen"
+
+#: include/classes/class.schedulebooking.php:1790
+msgid "Reservation Date/Time Updated"
+msgstr "Aktualisierung des Reservierungsdatums/-zeit"
+
+#: include/classes/class.schedulebooking.php:1835
+msgid "Reservation Date:"
+msgstr "Reservierungsdatum:"
+
+#: include/classes/class.schedulebooking.php:1786
+msgid "Reservation Status Update"
+msgstr "Aktualisierung des Reservierungsstatus"
+
+#: include/classes/class.schedulebooking.php:1794
+msgid "Reservation Updated: Place changed"
+msgstr "Aktualisierung der Reservierung: Ort geändert"
+
+#: include/classes/class.schedulebooking.php:1826
+msgid "Reserved Service:"
+msgstr "Reservierte Dienstleistung:"
+
+#: include/classes/class.schedulebooking.php:763
+#: include/classes/class.scheduleservices.php:623
+msgid "Results not found"
+msgstr "Keine Ergebnisse gefunden"
+
+#: templates/edit_location.php:165
+msgid "Return"
+msgstr "Zurück"
+
+#: include/classes/class.schedulelocations.php:608
+msgid "Sat"
+msgstr "Sa"
+
+#: include/classes/class.schedulebooking.php:71
+msgid "Sat."
+msgstr "Sa."
+
+#: include/classes/class.scheduleavailabledays.php:64
+#: include/classes/class.schedulebooking.php:62
+#: include/classes/class.schedulebooking.php:1868
+msgid "Saturday"
+msgstr "Samstag"
+
+#: templates/config.php:171 templates/edit_location.php:39
+#: templates/edit_location.php:95 templates/edit_location.php:159
+#: templates/edit_location.php:374 templates/edit_location.php:381
+#: templates/locations.php:59 templates/services.php:128
+msgid "Save"
+msgstr "Speichern"
+
+#: include/woocommerce.php:21
+msgid "Schedule Booking Product"
+msgstr "Terminbuchungsprodukt"
+
+#: include/classes/class.schedulebooking.php:662
+#: include/classes/class.schedulelocations.php:374
+#: include/classes/class.schedulelocations.php:376
+#: include/classes/class.scheduleservices.php:504
+msgid "Search"
+msgstr "Suchen"
+
+#: include/classes/class.scheduleservices.php:502
+#: include/classes/class.bookingstaff.php:388
+msgid "Search:"
+msgstr "Suchen:"
+
+#: templates/config.php:152
+msgid "Secret Key"
+msgstr "Geheimer Schlüssel"
+
+#: include/classes/class.schedulebooking.php:1313
+#: include/shortcodes/book_location_shortcode.php:395
+msgid "Select"
+msgstr "Auswählen"
+
+#: include/ajax_functions.php:376 include/ajax_functions.php:378
+#: include/classes/class.schedulebooking.php:682
+#: include/classes/class.schedulebooking.php:683
+#: include/classes/class.schedulebooking.php:1597
+#: include/classes/class.schedulebooking.php:1599
+#: include/shortcodes/form_shortcode.php:96
+msgid "Select Date"
+msgstr "Datum auswählen"
+
+#: include/classes/class.schedulebooking.php:1593
+#: include/classes/class.schedulelocations.php:444 include/woocommerce.php:94
+msgid "Select Location"
+msgstr "Standort auswählen"
+
+#: include/classes/class.schedulebooking.php:1422
+msgid "Select Required Services"
+msgstr "Service auswählen"
+
+#: include/classes/class.scheduleavailabledays.php:732
+#: include/classes/class.schedulebooking.php:1622
+#: include/shortcodes/form_shortcode.php:88
+#: include/shortcodes/form_shortcode.php:247
+msgid "Select Service"
+msgstr "Dienstleistung auswählen"
+
+#: include/woocommerce.php:2617
+msgid "Select the date and time for the appointment:"
+msgstr "Datum und Uhrzeit für den Termin auswählen:"
+
+#: include/ajax_functions.php:380 include/ajax_functions.php:382
+#: include/classes/class.schedulebooking.php:1601
+#: include/classes/class.schedulebooking.php:1603
+#: include/shortcodes/form_shortcode.php:101
+msgid "Select Time"
+msgstr "Uhrzeit auswählen"
+
+#: include/classes/class.bookingstaff.php:481
+msgid "Select Username"
+msgstr "Benutzernamen auswählen"
+
+#: include/shortcodes/book_location_shortcode.php:396
+msgid "Selected"
+msgstr "Ausgewählt"
+
+#: include/ajax_functions.php:645
+msgid "Send Email."
+msgstr "E-Mail senden."
+
+#: include/classes/class.schedulebooking.php:82
+#: include/classes/class.schedulebooking.php:1896 templates/calendar.php:29
+msgid "September"
+msgstr "September"
+
+#: include/ajax_functions.php:265 include/ajax_functions.php:350
+#: templates/services.php:40 templates/services.php:41
+#: templates/services.php:71 templates/services.php:72
+msgid "Service"
+msgstr "Dienstleistung"
+
+#: templates/services.php:28
+msgid "Service Categories"
+msgstr "Dienstleistungskategorien"
+
+#: templates/services.php:44 templates/services.php:75
+msgid "Service Category"
+msgstr "Dienstleistungskategorie"
+
+#: include/ajax_functions.php:263 include/ajax_functions.php:348
+#: include/classes/class.schedulebooking.php:1751 include/menus.php:38
+#: templates/services.php:24 templates/services.php:33
+msgid "Services"
+msgstr "Dienstleistungen"
+
+#: templates/edit_location.php:101
+msgid "Services Delivered"
+msgstr "Erbrachte Dienstleistungen"
+
+#: templates/config.php:86
+msgid "Services uploaded on Woocommerce."
+msgstr "Dienstleistungen auf WooCommerce hochgeladen."
+
+#: include/classes/class.schedulebooking.php:532
+#: include/classes/class.schedulebooking.php:712
+#: include/classes/class.schedulebooking.php:764
+#: include/classes/class.schedulelocations.php:382
+#: include/classes/class.schedulelocations.php:817
+#: include/classes/class.scheduleservices.php:507
+#: include/classes/class.scheduleservices.php:624
+msgid "Show All"
+msgstr "Alle anzeigen"
+
+#: include/classes/class.schedulebooking.php:689
+#: include/classes/class.schedulelocations.php:379
+msgid "Showing"
+msgstr "Anzeigen"
+
+#: include/classes/class.schedulebooking.php:1848
+msgid "Sincerely,"
+msgstr "Aufrichtig,"
+
+#: include/ajax_functions.php:569
+msgid "Something went wrong."
+msgstr "Etwas ist schiefgegangen."
+
+#: templates/staff.php:18
+msgid "Staff"
+msgstr "Mitarbeiter"
+
+#: include/classes/class.bookingstaff.php:380
+msgid "Staff Member"
+msgstr "Mitarbeiter"
+
+#: templates/staff.php:50
+msgid "Staff Member Name"
+msgstr "Name des Mitarbeiters"
+
+#: templates/config.php:88
+msgid "Staff Selection Enabled."
+msgstr "Mitarbeiterauswahl Aktiviert."
+
+#: include/classes/class.schedulebooking.php:704
+#: include/classes/class.schedulebooking.php:1738
+msgid "Status"
+msgstr "Status"
+
+#: include/shortcodes/form_shortcode.php:119
+msgid "Submit"
+msgstr "Senden"
+
+#: include/classes/class.schedulelocations.php:611
+msgid "Sun"
+msgstr "So"
+
+#: include/classes/class.schedulebooking.php:65
+msgid "Sun."
+msgstr "So."
+
+#: include/classes/class.scheduleavailabledays.php:70
+#: include/classes/class.schedulebooking.php:56
+#: include/classes/class.schedulebooking.php:1868
+msgid "Sunday"
+msgstr "Sonntag"
+
+#. Description of the plugin/theme
+msgid ""
+"System to manage reservations for services in different locations. Use "
+"[IK_BOOKING_FORM] to show the form."
+msgstr ""
+"System zur Verwaltung von Reservierungen für Dienstleistungen an "
+"verschiedenen Standorten. Verwenden Sie [IK_BOOKING_FORM], um das Formular "
+"anzuzeigen."
+
+#: include/classes/class.schedulebooking.php:1782
+#: include/classes/class.schedulebooking.php:1798
+msgid "Thank you for booking with us"
+msgstr "Vielen Dank für Ihre Buchung bei uns"
+
+#: include/classes/class.schedulebooking.php:1783
+#: include/classes/class.schedulebooking.php:1799
+msgid ""
+"Thank you for booking with us. We have received your reservation request and "
+"are currently processing it. Your reservation is pending confirmation. We "
+"will notify you as soon as we have an update."
+msgstr ""
+"Vielen Dank für Ihre Buchung bei uns. Wir haben Ihre Reservierungsanfrage "
+"erhalten und bearbeiten sie derzeit. Ihre Reservierung ist bestätigt. Wir "
+"werden Sie informieren, sobald wir eine Aktualisierung haben."
+
+#: include/classes/class.schedulebooking.php:1846
+msgid "Thank you for choosing our services!"
+msgstr ""
+"Vielen Dank, dass Sie sich für unsere Dienstleistungen entschieden haben!"
+
+#: include/ajax_functions.php:547
+msgid "The selected date is no longer available."
+msgstr "Das ausgewählte Datum steht nicht mehr zur Verfügung."
+
+#: include/ajax_functions.php:542
+msgid "The selected time is no longer available."
+msgstr "Die ausgewählte Uhrzeit steht nicht mehr zur Verfügung."
+
+#: include/classes/class.schedulelocations.php:602
+msgid "Thurs"
+msgstr "Do"
+
+#: include/classes/class.schedulebooking.php:69
+msgid "Thurs."
+msgstr "Do."
+
+#: include/classes/class.scheduleavailabledays.php:52
+#: include/classes/class.schedulebooking.php:60
+#: include/classes/class.schedulebooking.php:1868
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: include/woocommerce.php:365
+msgid "Time"
+msgstr "Zeit"
+
+#: templates/edit_location.php:66
+msgid "Time End"
+msgstr "Endzeit"
+
+#: templates/config.php:97
+msgid "Time Format:"
+msgstr "Zeitformat:"
+
+#: templates/config.php:103
+msgid "Time Frame (minutes):"
+msgstr "Zeitintervall (Minuten):"
+
+#: templates/edit_location.php:65
+msgid "Time Start"
+msgstr "Startzeit"
+
+#: include/classes/class.schedulebooking.php:676
+msgid "To Date"
+msgstr "Bis Datum"
+
+#: templates/config.php:93
+msgid ""
+"to prevent overbooking or allow multiple bookings for simultaneous "
+"appointments:"
+msgstr ""
+"Um Überbuchungen zu verhindern oder mehrere Buchungen für gleichzeitige "
+"Termine zu ermöglichen:"
+
+#: include/classes/class.schedulelocations.php:650
+msgid "Today"
+msgstr "Heute"
+
+#: include/classes/class.schedulebooking.php:689
+#: include/classes/class.schedulelocations.php:379
+#: include/classes/class.scheduleservices.php:513
+#: include/classes/class.bookingstaff.php:393
+msgid "Total"
+msgstr "Gesamt"
+
+#: include/classes/class.schedulelocations.php:596
+msgid "Tues"
+msgstr "Di"
+
+#: include/classes/class.schedulebooking.php:67
+msgid "Tues."
+msgstr "Di."
+
+#: include/classes/class.scheduleavailabledays.php:40
+#: include/classes/class.schedulebooking.php:58
+#: include/classes/class.schedulebooking.php:1868
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: include/classes/class.schedulebooking.php:2344
+msgid ""
+"Unfortunately, there are no appointments available on the %s, %s %s. Please "
+"choose another day."
+msgstr ""
+"Es sind leider keine Termine am %s, %s. %s, verfügbar. Bitte wähle einen "
+"anderen Tag aus."
+
+#: templates/services.php:60
+msgid "Update Service"
+msgstr "Dienstleistung aktualisieren"
+
+#: templates/staff.php:39
+msgid "Update Staff Member"
+msgstr "Mitarbeiter aktualisieren"
+
+#: include/classes/class.schedulelocations.php:444 include/woocommerce.php:55
+msgid "URL of the category icon image."
+msgstr "URL des Kategorie-Icon-Bildes."
+
+#: templates/staff.php:31 templates/staff.php:54
+msgid "User Associated"
+msgstr "Benutzer zugeordnet"
+
+#: templates/config.php:158
+msgid "V2 - Not a Robot"
+msgstr "V2 - Kein Roboter"
+
+#: templates/config.php:161
+msgid "V3 - Invisible"
+msgstr "V3 - Unsichtbar"
+
+#: templates/edit_location.php:128 templates/edit_location.php:144
+#: templates/edit_location.php:348
+msgid "Value Only"
+msgstr "Nur Wert"
+
+#: include/classes/class.schedulebooking.php:705
+msgid "View / Edit"
+msgstr "Anzeigen / Bearbeiten"
+
+#: include/classes/class.schedulebooking.php:1842
+msgid ""
+"We appreciate your trust in our services and look forward to providing you "
+"with the best possible experience. We are always here to assist you with "
+"anything you need."
+msgstr ""
+"Wir wissen Ihr Vertrauen in unsere Dienstleistungen zu schätzen und freuen "
+"uns darauf, Ihnen das bestmögliche Erlebnis zu bieten. Wir sind immer für "
+"Sie da, um Ihnen bei allem zu helfen, was Sie brauchen."
+
+#: include/classes/class.schedulebooking.php:1787
+msgid ""
+"We hope this message finds you well. We want to inform you that there has "
+"been an update in the status of your reservation. Below, we provide you with "
+"the updated details:"
+msgstr ""
+"Wir hoffen, diese Nachricht erreicht Sie wohlauf. Wir möchten Sie darüber "
+"informieren, dass es eine Aktualisierung des Status Ihrer Reservierung gibt. "
+"Im Folgenden finden Sie die aktualisierten Details:"
+
+#: include/classes/class.schedulebooking.php:1791
+#: include/classes/class.schedulebooking.php:1795
+msgid ""
+"We hope this message finds you well. We want to inform you that there has "
+"been an update in your reservation. Below, we provide you with the updated "
+"details:"
+msgstr ""
+"Wir hoffen, diese Nachricht erreicht Sie wohlauf. Wir möchten Sie darüber "
+"informieren, dass es eine Aktualisierung Ihrer Reservierung gibt. Im "
+"Folgenden finden Sie die aktualisierten Details:"
+
+#: include/classes/class.schedulebooking.php:1840
+msgid ""
+"We want to make sure you are aware of any changes to your reservation. If "
+"you have any questions or need more details about this update, please feel "
+"free to get in touch with our customer support team."
+msgstr ""
+"Wir möchten sicherstellen, dass Sie über etwaige Änderungen an Ihrer "
+"Reservierung informiert sind. Wenn Sie Fragen haben oder weitere Details zu "
+"diesem Update benötigen, können Sie sich gerne mit unserem Kundensupport-"
+"Team in Verbindung setzen."
+
+#: include/classes/class.schedulelocations.php:599
+msgid "Wed"
+msgstr "Mi"
+
+#: include/classes/class.schedulebooking.php:68
+msgid "Wed."
+msgstr "Mi."
+
+#: include/classes/class.scheduleavailabledays.php:46
+#: include/classes/class.schedulebooking.php:59
+#: include/classes/class.schedulebooking.php:1868
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: templates/config.php:87
+msgid "Week starts on Monday (leave it uncheck if starts on Sunday)."
+msgstr ""
+"Die Woche beginnt am Montag (nicht markieren, wenn sie am Sonntag beginnt)."
+
+#: templates/config.php:97
+msgid "Show price list as popup."
+msgstr "Zeig die Preisliste als Popup an."
+
+#: templates/config.php:99
+msgid "Show dates as a month (for Woocommerce)."
+msgstr "Termine als Monat anzeigen (für Woocommerce)."
+
+#: templates/calendar.php:37 templates/calendar.php:550
+msgid "Week View"
+msgstr "Wochenansicht"
+
+#: include/classes/class.schedulebooking.php:1867
+msgid "Woocomerce Order"
+msgstr "WooCommerce Bestellung"
+
+#: include/classes/class.schedulebooking.php:870
+msgid "Year"
+msgstr "Jahr"
+
+#: include/ajax_functions.php:384
+#: include/classes/class.schedulebooking.php:1607
+msgid "Your Name"
+msgstr "Vor-und Nachname"
+
+#: include/ajax_functions.php:538
+msgid "Your reservation has been confirmed! Thank you!"
+msgstr "Ihre Reservierung wurde bestätigt! Vielen Dank!"
